@@ -1,0 +1,214 @@
+/*Sammie & co css*/
+#logoheader{
+	display:flex;
+	justify-content:space-between;
+	background-color:rgba(135, 129, 129, 0.843);
+	color:rgb(66, 240, 249);
+	
+}
+.logoheader{
+	width:33%;
+	box-sizing: border-box;
+}
+.socialsinner{
+	width:40%;
+	box-sizing:border-box
+}
+#socials{
+	display:flex;
+	justify-content:'space-evenly';
+}
+nav{
+	width:100%;
+	position:sticky;
+	top:0px;
+	box-sizing: border-box;
+	z-index: 1
+}
+#menu{
+	width:100%;
+	box-sizing:border-box;
+	text-align:right;
+	margin-bottom:0px;
+}
+.menulist{
+	display:inline-block;
+	margin:10px;
+	list-style-type:none;
+	background-color:rgba(135, 129, 129, 0.843);
+	padding:2px;
+}
+.menulist2{
+	margin:10px;
+	list-style-type:none;
+}
+.menulinks{
+	text-decoration:none;
+	color:rgb(66, 240, 249);
+}
+#banner{
+	height:500px;
+	width:100%;
+	background-image:url(images/banner1.jpg);
+	background-size:contain;
+
+}
+#overlay{
+	height:500px;
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	background-size:contain;
+}
+#aboutussection{
+	display:flex;
+}
+#aboutus{
+	height:300px;
+	width:70%;
+}
+#aboutusicon{
+	height:300px;
+	width:30%;
+	background-image:url(images/aboutus3.jpg);
+	background-size: cover
+}
+#ourservicessection{
+	display:flex;
+}
+#ourservicesicon{
+	height:300px;
+	width:30%;
+	background-image:url(images/aboutus5.jpg);
+	background-size:contain;
+}
+#ourservices{
+	height:300px;
+	width:70%;
+}
+#projects{
+	height:100px;
+	width:100%;
+}
+#projectimages{
+	height:400px;
+	width:100%;
+}
+#contactus{
+	display:flex;
+}
+#contactword{
+	height:120px;
+	width:100%;
+}
+.contacts{
+	height:200px;
+	width:50%;
+}
+#footer{
+	height:250px;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	background-color:rgba(135, 129, 129, 0.843);
+}
+[alt='contacticon']{
+	margin-top:20px;
+	margin-left:50px;
+}
+[alt='socialmedia']{
+	margin-top:5px;
+	margin-left:50px;
+}
+[alt='logo']{
+	margin-top:5px;
+	margin-left:100px;
+}
+#coyname{
+	padding:0px;
+	margin-left:50px;
+	margin-bottom:10px;
+}
+#coyname2{
+	color:rgb(66, 240, 249);
+	margin-left:38px;
+}
+#bannertext{
+	width:30%;
+	color:rgb(66, 240, 249);
+	text-align:left;
+	margin-left:40px;
+	background-color:rgba(135, 129, 129, 0.843);
+}
+#bannerbottons{
+	display:flex;
+	margin-left:50px;
+	margin-top:40px;
+}
+#bannerbotton2{
+	margin-left:20px;
+}
+.pastproject{
+	height:330px;
+	width:33%;
+	border:2px solid rgb(66, 240, 249);
+	margin:5px;
+}
+marquee{
+	margin:10px;
+ }
+
+body{
+	/* background-image:url(images/projects.jpeg); */
+	box-sizing:border-box;
+}
+main{
+	background-color:rgba(135, 129, 129, 0.843);
+	width: inherit;
+	height: inherit;
+}
+#contactdetails{
+	margin-left:80px;
+}
+#contactform{
+	margin-bottom:15px;
+}
+.footerdiv{
+	width:20%;
+	height:40%;
+	margin:10px;
+}
+
+h2{
+	color:rgb(66, 240, 249);
+	background-color:rgba(135, 129, 129, 0.843);
+}
+.bannerbotton{
+	background-color:rgba(135, 129, 129, 0.843);
+	color:rgb(66, 240, 249);
+	padding:10px;
+}
+.words{
+	margin:18px;
+}
+.input{
+	padding:5px;
+	width:40%;
+}
+[type='submit']{
+	background-color:black;
+	color:rgb(66, 240, 249);
+}
+#contactus{
+	margin:10px;
+}
+p, li{
+	font-size:18px;
+}
+#builders{
+	margin:10px;
+}
+a:hover{
+	color:rgb(66, 240, 249);
+}
+	
+
